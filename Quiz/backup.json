@@ -1,0 +1,139 @@
+[
+  {
+    "QuizId": 1,
+    "Title": "Основы информатики и ИКТ",
+    "Description": null,
+    "Questions": [
+      {
+        "QuestionId": 1,
+        "QuestionText": "Что такое операционная система?",
+        "Options": [
+          {
+            "OptionId": 1,
+            "OptionText": "Это совокупность программ, управляющих работой компьютера и обеспечивающих взаимодействие с пользователем",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 2,
+            "OptionText": "Это программа для редактирования текстов и таблиц",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 3,
+            "OptionText": "Это устройство для хранения данных",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 4,
+            "OptionText": "Это антивирусная программа",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 2,
+        "QuestionText": "Какой протокол используется для передачи веб-страниц?",
+        "Options": [
+          {
+            "OptionId": 5,
+            "OptionText": "HTTP",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 6,
+            "OptionText": "FTP",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 7,
+            "OptionText": "SMTP",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 8,
+            "OptionText": "TCP",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 3,
+        "QuestionText": "Что означает аббревиатура «RAM»?",
+        "Options": [
+          {
+            "OptionId": 9,
+            "OptionText": "Random Access Memory",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 10,
+            "OptionText": "Read-Only Memory",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 11,
+            "OptionText": "Remote Application Module",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 12,
+            "OptionText": "Read Access Memory",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 4,
+        "QuestionText": "Какой из перечисленных языков программирования является компилируемым?",
+        "Options": [
+          {
+            "OptionId": 13,
+            "OptionText": "C++",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 14,
+            "OptionText": "Python",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 15,
+            "OptionText": "JavaScript",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 16,
+            "OptionText": "PHP",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 5,
+        "QuestionText": "Что такое IP-адрес?",
+        "Options": [
+          {
+            "OptionId": 17,
+            "OptionText": "Уникальный идентификатор устройства в сети",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 18,
+            "OptionText": "Название веб-сайта",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 19,
+            "OptionText": "Пароль для входа в интернет",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 20,
+            "OptionText": "Серийный номер процессора",
+            "IsCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\username\\source\\repos\\QuizzApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\inputwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\inputwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\inputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\inputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\editquestionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\editquestionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\inputwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\inputwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\helpers\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\helpers\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\editquestionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\editquestionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|c:\\users\\username\\source\\repos\\quizzapp\\quizzapp\\quizwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\quizwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|C:\\Users\\username\\source\\repos\\QuizzApp\\quizzapp\\quizwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85C2748A-5DB2-473F-8706-DA3EDD2D978A}|QuizzApp\\QuizzApp.csproj|solutionrelative:quizzapp\\quizwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\InputWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QuizzApp\\InputWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\InputWindow.xaml.cs",
+              "RelativeToolTip": "QuizzApp\\InputWindow.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:14:19.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\InputWindow.xaml",
+              "RelativeDocumentMoniker": "QuizzApp\\InputWindow.xaml",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\InputWindow.xaml",
+              "RelativeToolTip": "QuizzApp\\InputWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-01T16:14:16.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditQuestionWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\EditQuestionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QuizzApp\\EditQuestionWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\EditQuestionWindow.xaml.cs",
+              "RelativeToolTip": "QuizzApp\\EditQuestionWindow.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowBoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:26:20.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QuizzApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\MainWindow.xaml",
+              "RelativeToolTip": "QuizzApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-01T15:24:17.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QuizzApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QuizzApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:24:47.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InputWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\InputWindow.xaml",
+              "RelativeDocumentMoniker": "QuizzApp\\InputWindow.xaml",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\InputWindow.xaml",
+              "RelativeToolTip": "QuizzApp\\InputWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-01T16:14:01.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\Helpers\\Class1.cs",
+              "RelativeDocumentMoniker": "QuizzApp\\Helpers\\Class1.cs",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\Helpers\\Class1.cs",
+              "RelativeToolTip": "QuizzApp\\Helpers\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:35:33.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditQuestionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\EditQuestionWindow.xaml",
+              "RelativeDocumentMoniker": "QuizzApp\\EditQuestionWindow.xaml",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\EditQuestionWindow.xaml",
+              "RelativeToolTip": "QuizzApp\\EditQuestionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-01T15:26:00.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuizWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\QuizWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QuizzApp\\QuizWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\QuizWindow.xaml.cs",
+              "RelativeToolTip": "QuizzApp\\QuizWindow.xaml.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAD4v4kAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:15:04.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuizWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\QuizWindow.xaml",
+              "RelativeDocumentMoniker": "QuizzApp\\QuizWindow.xaml",
+              "ToolTip": "C:\\Users\\username\\source\\repos\\QuizzApp\\QuizzApp\\QuizWindow.xaml",
+              "RelativeToolTip": "QuizzApp\\QuizWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-01T14:30:52.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
