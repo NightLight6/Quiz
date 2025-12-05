@@ -38,6 +38,7 @@ namespace QuizzApp
                 LvQuestions.ItemsSource = null;
             }
         }
+
         private void LvQuizzes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             if (LvQuizzes.SelectedItem is Quizzes quiz)
@@ -55,6 +56,7 @@ namespace QuizzApp
                 _db.Quizzes.Add(new Quizzes { Title = inputWindow.InputText });
                 _db.SaveChanges();
                 LoadQuizzes();
+                // Новая викторина не выделяется автоматически — по желанию можно добавить логику выделения последней
             }
         }
 
@@ -65,9 +67,13 @@ namespace QuizzApp
                 MessageBox.Show("Сначала выберите викторину!");
                 return;
             }
-            var addWindow = new AddQuestionWindow(_selectedQuiz.QuizId);
+
+            var quizId = _selectedQuiz.QuizId;
+            var addWindow = new AddQuestionWindow(quizId);
             addWindow.ShowDialog();
+
             LoadQuizzes();
+            RefreshSelection(quizId);
         }
 
         private void BtnDeleteQuiz_Click(object sender, RoutedEventArgs e)
@@ -83,20 +89,21 @@ namespace QuizzApp
                 if (MessageBox.Show($"Удалить викторину '{_selectedQuiz.Title}' и все вопросы?", "Подтверждение",
                     MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
                 {
-                    var questionIds = _db.Questions.Where(q => q.QuizId == _selectedQuiz.QuizId).Select(q => q.QuestionId).ToList();
-                    var optionsToDelete = _db.Options.Where(o => questionIds.Contains(o.QuestionId)).ToList();
+                    var questionIds = _db.Questions
+                        .Where(q => q.QuizId == _selectedQuiz.QuizId)
+                        .Select(q => q.QuestionId)
+                        .ToList();
+
+                    var optionsToDelete = _db.Options
+                        .Where(o => questionIds.Contains(o.QuestionId))
+                        .ToList();
+
                     _db.Options.RemoveRange(optionsToDelete);
-
-                    var questionsToDelete = _db.Questions.Where(q => q.QuizId == _selectedQuiz.QuizId).ToList();
-                    _db.Questions.RemoveRange(questionsToDelete);
-
+                    _db.Questions.RemoveRange(_db.Questions.Where(q => q.QuizId == _selectedQuiz.QuizId));
                     _db.Quizzes.Remove(_selectedQuiz);
                     _db.SaveChanges();
 
-                    _selectedQuiz = null;
-                    LvQuizzes.SelectedItem = null;
-                    LvQuestions.ItemsSource = null;
-
+                    RefreshSelection(null);
                     LoadQuizzes();
                 }
             }
@@ -116,6 +123,7 @@ namespace QuizzApp
         private void BtnImport_Click(object sender, RoutedEventArgs e)
         {
             QuizzApp.Helpers.JsonService.ImportFromJSON();
+            RefreshSelection(null);
             LoadQuizzes();
             MessageBox.Show("Импорт завершён!");
         }
@@ -124,10 +132,12 @@ namespace QuizzApp
         {
             if (LvQuestions.SelectedItem is Questions question)
             {
+                var quizId = _selectedQuiz?.QuizId;
                 var editWindow = new EditQuestionWindow(question.QuestionId);
                 if (editWindow.ShowDialog() == true)
                 {
                     LoadQuizzes();
+                    RefreshSelection(quizId);
                 }
             }
         }
@@ -141,8 +151,31 @@ namespace QuizzApp
                 {
                     _db.Questions.Remove(question);
                     _db.SaveChanges();
+
+                    var quizId = _selectedQuiz?.QuizId;
                     LoadQuizzes();
+                    RefreshSelection(quizId);
                 }
+            }
+        }
+
+        /// <summary>
+        /// Обновляет выделение викторины и список вопросов на основе QuizId.
+        /// Если quizId = null — сбрасывает выделение.
+        /// </summary>
+        private void RefreshSelection(int? quizId)
+        {
+            if (quizId.HasValue)
+            {
+                _selectedQuiz = _db.Quizzes.Include("Questions").FirstOrDefault(q => q.QuizId == quizId.Value);
+                LvQuizzes.SelectedItem = _selectedQuiz;
+                LvQuestions.ItemsSource = _selectedQuiz?.Questions.ToList();
+            }
+            else
+            {
+                _selectedQuiz = null;
+                LvQuizzes.SelectedItem = null;
+                LvQuestions.ItemsSource = null;
             }
         }
     }

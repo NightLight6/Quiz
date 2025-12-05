@@ -1,14 +1,413 @@
 [
   {
-    "QuizId": 1,
-    "Title": "123",
+    "QuizId": 10,
+    "Title": "Космос и астрономия",
     "Description": null,
-    "Questions": []
+    "Questions": [
+      {
+        "QuestionId": 2,
+        "QuestionText": "Какая планета Солнечной системы самая большая?",
+        "Options": [
+          {
+            "OptionId": 1,
+            "OptionText": "Юпитер",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 2,
+            "OptionText": "Земля",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 3,
+            "OptionText": "Сатурн",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 4,
+            "OptionText": "Марс",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 3,
+        "QuestionText": "Что такое «чёрная дыра»?",
+        "Options": [
+          {
+            "OptionId": 5,
+            "OptionText": "Объект с такой сильной гравитацией, что даже свет не может из него вырваться",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 6,
+            "OptionText": "Область космоса без звёзд",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 7,
+            "OptionText": "Тёмное пятно на Солнце",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 8,
+            "OptionText": "Огромный астероид",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 4,
+        "QuestionText": "Сколько длится один «день» на Венере (время полного вращения вокруг своей оси)?",
+        "Options": [
+          {
+            "OptionId": 9,
+            "OptionText": "243 земных дня",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 10,
+            "OptionText": "24 часа",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 11,
+            "OptionText": "12 часов",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 12,
+            "OptionText": "88 дней",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 5,
+        "QuestionText": "Какой спутник является самым большим в Солнечной системе?",
+        "Options": [
+          {
+            "OptionId": 13,
+            "OptionText": "Ганимед",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 14,
+            "OptionText": "Луна",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 15,
+            "OptionText": "Европа",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 16,
+            "OptionText": "Титан",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 6,
+        "QuestionText": "Кто первым вышел в открытый космос?",
+        "Options": [
+          {
+            "OptionId": 17,
+            "OptionText": "Алексей Леонов",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 18,
+            "OptionText": "Нил Армстронг",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 19,
+            "OptionText": "Юрий Гагарин",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 20,
+            "OptionText": "Джон Гленн",
+            "IsCorrect": false
+          }
+        ]
+      }
+    ]
   },
   {
-    "QuizId": 2,
-    "Title": "222",
+    "QuizId": 11,
+    "Title": "Русская литература XIX века",
     "Description": null,
-    "Questions": []
+    "Questions": [
+      {
+        "QuestionId": 7,
+        "QuestionText": "Кто автор романа «Преступление и наказание»",
+        "Options": [
+          {
+            "OptionId": 21,
+            "OptionText": "Фёдор Достоевский",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 22,
+            "OptionText": "Лев Толстой",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 23,
+            "OptionText": "Иван Тургенев",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 24,
+            "OptionText": "Александр Пушкин",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 8,
+        "QuestionText": "Как зовут главного героя повести «Шинель» Н. В. Гоголя?",
+        "Options": [
+          {
+            "OptionId": 25,
+            "OptionText": "Акакий Акакиевич",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 26,
+            "OptionText": "Пётр Петрович",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 27,
+            "OptionText": "Иван Иванович",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 28,
+            "OptionText": "Митрофанушка",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 9,
+        "QuestionText": "В каком произведении есть персонаж Обломов?",
+        "Options": [
+          {
+            "OptionId": 29,
+            "OptionText": "«Обломов»",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 30,
+            "OptionText": "«Отцы и дети»",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 31,
+            "OptionText": "«Воскресение»",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 32,
+            "OptionText": "«Герой нашего времени»",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 10,
+        "QuestionText": "Кто из писателей создал образ «лишнего человека» в романе «Евгений Онегин»?",
+        "Options": [
+          {
+            "OptionId": 33,
+            "OptionText": "Александр Пушкин",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 34,
+            "OptionText": "Михаил Лермонтов",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 35,
+            "OptionText": "Николай Гоголь",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 36,
+            "OptionText": "Иван Гончаров",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 11,
+        "QuestionText": "Как зовут собаку в повести «Муму» И. С. Тургенева?",
+        "Options": [
+          {
+            "OptionId": 37,
+            "OptionText": "Муму",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 38,
+            "OptionText": "Жучка",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 39,
+            "OptionText": "Белка",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 40,
+            "OptionText": "Лайка",
+            "IsCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "QuizId": 12,
+    "Title": "Занимательная биология",
+    "Description": null,
+    "Questions": [
+      {
+        "QuestionId": 12,
+        "QuestionText": "Какой орган у человека отвечает за выработку инсулина?",
+        "Options": [
+          {
+            "OptionId": 41,
+            "OptionText": "Поджелудочная железа",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 42,
+            "OptionText": "Печень",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 43,
+            "OptionText": "Щитовидная железа",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 44,
+            "OptionText": "Надпочечники",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 13,
+        "QuestionText": "Сколько хромосом у человека?",
+        "Options": [
+          {
+            "OptionId": 45,
+            "OptionText": "46",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 46,
+            "OptionText": "23",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 47,
+            "OptionText": "44",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 48,
+            "OptionText": "48",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 14,
+        "QuestionText": "Какое животное является ближайшим родственником человека по ДНК?",
+        "Options": [
+          {
+            "OptionId": 49,
+            "OptionText": "Шимпанзе",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 50,
+            "OptionText": "Горилла",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 51,
+            "OptionText": "Орангутан",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 52,
+            "OptionText": "Бонобо",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 15,
+        "QuestionText": "Как называется процесс превращения гусеницы в бабочку?",
+        "Options": [
+          {
+            "OptionId": 53,
+            "OptionText": "Метаморфоз",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 54,
+            "OptionText": "Регенерация",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 55,
+            "OptionText": "Мутация",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 56,
+            "OptionText": "Половое размножение",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "QuestionId": 16,
+        "QuestionText": "Какой кровяной элемент отвечает за перенос кислорода?",
+        "Options": [
+          {
+            "OptionId": 57,
+            "OptionText": "Эритроциты",
+            "IsCorrect": true
+          },
+          {
+            "OptionId": 58,
+            "OptionText": "Лейкоциты",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 59,
+            "OptionText": "Тромбоциты",
+            "IsCorrect": false
+          },
+          {
+            "OptionId": 60,
+            "OptionText": "Плазма",
+            "IsCorrect": false
+          }
+        ]
+      }
+    ]
   }
 ]
